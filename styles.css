@@ -1,0 +1,64 @@
+figure{  /* code that allows figure to fit on screen */
+    display: block;
+    margin: auto;
+  }
+
+body{
+  background: rgb(34, 34, 235);
+}
+
+p{
+  font-size: 18px;
+}
+
+h2, h3, p{
+  color: white;
+}
+
+h2, h3{
+  text-decoration: underline;
+}
+
+
+
+.img-container{ /* container of images under description */
+    display: inline-flex;
+    margin: 6px ;
+    justify-content: space-around;
+    flex-direction: row; /* places them into a row */
+    padding-top: 10px;
+}
+
+.image{
+  padding-left: 15px; /* space between images */
+}
+
+.About{
+  vertical-align: center;
+  /* puts "About Me" and "Additional Info" side by side */
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  box-sizing: content-box;
+  width: 100%;
+}
+
+.AboutItem{ /*Make boxes equal height */
+  flex: 1;
+  padding: 18px;
+}
+
+.AddText{ /* content inside "Additional Info" box */
+  text-align: center;
+  border: 3px solid rgb(172, 112, 2);
+  background: orange;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.AboutText{ /*Content under "About Me" */
+  text-align: Center;
+  height: 100%;
+  box-sizing: border-box;
+}
+
