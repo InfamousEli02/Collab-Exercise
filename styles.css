@@ -4,7 +4,7 @@ figure{  /* code that allows figure to fit on screen */
   }
 
 body{
-  background: rgb(34, 34, 235);
+  background: rgb(34, 34, 235); /* color Deshawn likes */
 }
 
 p{
@@ -51,7 +51,7 @@ h2, h3{
 .AddText{ /* content inside "Additional Info" box */
   text-align: center;
   border: 3px solid rgb(172, 112, 2);
-  background: orange;
+  background: orange; /* color Deshawn likes */
   height: 100%;
   box-sizing: border-box;
 }
